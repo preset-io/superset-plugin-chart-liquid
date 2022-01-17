@@ -30,8 +30,8 @@
     "process": "^0.11.10"
   },
   "peerDependencies": {
-    "@superset-ui/chart-controls": "^0.18.25",
-    "@superset-ui/core": "^0.18.25",
+    "@superset-ui/chart-controls": "*",
+    "@superset-ui/core": "*",
     "react": "^16.13.1"
   },
   "devDependencies": {

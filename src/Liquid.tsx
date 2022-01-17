@@ -45,7 +45,7 @@ export default function Liquid(props: LiquidProps) {
       height,
       autoFit: false,
     }),
-    [height, width, percentage],
+    [height, width, percentage, shape],
   );
 
   return (
