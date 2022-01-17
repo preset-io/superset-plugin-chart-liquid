@@ -22,7 +22,7 @@ export default function transformProps(chartProps: ChartProps) {
   const { width, height, formData, queriesData } = chartProps;
   const data = queriesData[0].data as DataRecord[];
   const metricName = getMetricLabel(formData.metric);
-  const shape = getMetricLabel(formData.shape || 'rect');
+  const shape = formData.shape || 'rect';
   const percentage = data[0][metricName];
 
   return {
