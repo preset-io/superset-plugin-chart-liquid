@@ -2,7 +2,7 @@
 
 This plugin provides an example chart plugin for Superset to visualize percentages. The plugin has been built using the [Superset Yeoman Generator](https://www.npmjs.com/package/@superset-ui/generator-superset) and leverages the [And Design Charts](https://charts.ant.design) charting library.
 
-![Liquid chart plugin in Explore view](images/liquid.png)
+![Liquid chart plugin in Explore view](images/liquid.gif)
 
 ### Usage
 
