@@ -2,11 +2,11 @@
 
 This plugin provides an example chart plugin for Superset to visualize percentages. The plugin has been built using the [Superset Yeoman Generator](https://www.npmjs.com/package/@superset-ui/generator-superset) and leverages the [And Design Charts](https://charts.ant.design) charting library.
 
-![Liquid chart plugin in Explore view](images/liquid.gif)
+![Liquid chart plugin in Explore view](https://raw.githubusercontent.com/preset-io/superset-plugin-chart-liquid/master/images/liquid.gif)
 
 Preview in the chart picker
 
-![Liquid chart plugin in Chart Picker](images/liquid-picker.png)
+![Liquid chart plugin in Chart Picker](https://raw.githubusercontent.com/preset-io/superset-plugin-chart-liquid/master/images/liquid-picker.png)
 
 ### Usage
 
@@ -28,10 +28,16 @@ To add the package to Superset, go to the `superset-frontend` subdirectory in yo
 npm i -S ../../superset-plugin-chart-liquid
 ```
 
+or install directly from npm:
+```
+npm i -S @superset-ui/plugin-chart-liquid
+```
+
+
 After this edit the `superset-frontend/src/visualizations/presets/MainPreset.js` and make the following changes:
 
 ```js
-import { LiquidChartPlugin } from 'superset-plugin-chart-liquid';
+import { LiquidChartPlugin } from '@superset-ui/plugin-chart-liquid';
 ```
 
 to import the plugin and later add the following to the array that's passed to the `plugins` property:
