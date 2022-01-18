@@ -4,6 +4,10 @@ This plugin provides an example chart plugin for Superset to visualize percentag
 
 ![Liquid chart plugin in Explore view](images/liquid.gif)
 
+Preview in the chart picker
+
+![Liquid chart plugin in Chart Picker](images/liquid-picker.png)
+
 ### Usage
 
 To build the plugin, run the following commands:
