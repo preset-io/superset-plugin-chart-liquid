@@ -28,16 +28,15 @@ To add the package to Superset, go to the `superset-frontend` subdirectory in yo
 npm i -S ../../superset-plugin-chart-liquid
 ```
 
-or install directly from npm:
+or directly from npm by running
 ```
-npm i -S @superset-ui/plugin-chart-liquid
+npm i -S superset-plugin-chart-liquid
 ```
-
 
 After this edit the `superset-frontend/src/visualizations/presets/MainPreset.js` and make the following changes:
 
 ```js
-import { LiquidChartPlugin } from '@superset-ui/plugin-chart-liquid';
+import { LiquidChartPlugin } from 'superset-plugin-chart-liquid';
 ```
 
 to import the plugin and later add the following to the array that's passed to the `plugins` property:

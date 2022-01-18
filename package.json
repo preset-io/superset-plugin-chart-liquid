@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/plugin-chart-liquid",
-  "version": "0.1.3",
+  "name": "superset-plugin-chart-liquid",
+  "version": "0.1.4",
   "description": "Superset Liquid Chart Plugin",
   "sideEffects": false,
   "main": "lib/index.js",
