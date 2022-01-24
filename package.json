@@ -1,6 +1,6 @@
 {
   "name": "superset-plugin-chart-liquid",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Superset Liquid Chart Plugin",
   "sideEffects": false,
   "main": "lib/index.js",
@@ -21,6 +21,12 @@
     "test": "jest"
   },
   "author": "Superset",
+  "homepage": "https://github.com/preset-io/superset-plugin-chart-liquid",
+  "bugs": "https://github.com/preset-io/superset-plugin-chart-liquid/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:preset-io/superset-plugin-chart-liquid.git"
+  },
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
